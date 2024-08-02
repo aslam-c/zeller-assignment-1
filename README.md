@@ -21,10 +21,10 @@
 
 - Enter the SKU:
   Available SKUs --- ipd,mbp,atv,vga,
-  ipd
+  \ipd
 - Enter the quantity
-  1
+  \1
 - Type BUY to checkout, ADD to add more items
-  BUY
+  \BUY
 
 Total is 549.99
