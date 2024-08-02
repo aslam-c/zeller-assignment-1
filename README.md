@@ -19,12 +19,12 @@
 
 ### Commandline usage
 
-Enter the SKU:
-Available SKUs --- ipd,mbp,atv,vga,
-ipd
-Enter the quantity
-1
-Type BUY to checkout, ADD to add more items
-BUY
+- Enter the SKU:
+  Available SKUs --- ipd,mbp,atv,vga,
+  ipd
+- Enter the quantity
+  1
+- Type BUY to checkout, ADD to add more items
+  BUY
 
 Total is 549.99
