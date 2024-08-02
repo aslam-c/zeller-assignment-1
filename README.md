@@ -1,3 +1,5 @@
+### Node Version : v16.20.0
+
 ### Install dependencies
 
 - npm install
@@ -17,7 +19,7 @@
 - cmdline.ts : commandline tool
 - tests/ : tests directory
 
-### Commandline usage
+### Commandline sample usage
 
 - Enter the SKU:
   Available SKUs --- ipd,mbp,atv,vga, \
