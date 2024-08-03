@@ -27,8 +27,13 @@ export default class Checkout {
         const eligibleDiscountQuantity = Math.floor(
           currentQuantity / isDiscountExistForItem?.meta?.quantity_needs_to_met
         );
+
+        const applicableDiscountQuantity =
+          isDiscountExistForItem.meta.discount_quantity *
+          eligibleDiscountQuantity;
+
         const actualQuantityToBePaid =
-          currentQuantity - eligibleDiscountQuantity;
+          currentQuantity - applicableDiscountQuantity;
 
         this.totalAmount += actualQuantityToBePaid * product?.price;
       }

@@ -1,12 +1,9 @@
-import Checkout from "./Checkout";
-const readline = require("readline");
-
 export const discountRules: DiscountRule[] = [
   {
     sku: "atv",
     quantity: 3,
     discount_type: "quantity",
-    meta: { quantity_needs_to_met: 3, discount_price: 1 }
+    meta: { quantity_needs_to_met: 3, discount_quantity: 1 }
   },
   {
     sku: "ipd",
@@ -39,10 +36,3 @@ export const products: Product[] = [
     price: 30.0
   }
 ];
-
-const ck = new Checkout(discountRules);
-
-// ck.scan({ sku: "vga", quantity: 1 });
-// ck.scan({ sku: "atv", quantity: 3 });
-
-// console.log("Total is ", ck.total());
